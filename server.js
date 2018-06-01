@@ -10,7 +10,7 @@ var nodestatic = require('node-static');
 var express = require('express');
 var path = require('path');
 
-var serverPort = process.env.OPENSHIFT_NODEJS_PORT || 1337
+var serverPort = process.env.OPENSHIFT_NODEJS_PORT || 443
 var serverIpAddress = process.env.OPENSHIFT_NODEJS_IP || 'localhost'
 var socketIoServer = 'https://pik-video-conference.herokuapp.com';
 
