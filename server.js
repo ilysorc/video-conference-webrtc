@@ -12,7 +12,7 @@ var path = require('path');
 
 var serverPort = process.env.OPENSHIFT_NODEJS_PORT || 1337
 var serverIpAddress = process.env.OPENSHIFT_NODEJS_IP || 'localhost'
-var socketIoServer = 'http://pik-video-conference.herokuapp.com';
+var socketIoServer = '54.173.244.230';
 
 ////////////////////////////////////////////////
 // SETUP SERVER
